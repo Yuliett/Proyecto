@@ -1,0 +1,149 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:contentDescription="@string/action_settings" >
+
+    <TableRow
+        android:layout_width="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal" >
+
+        <ImageButton
+            android:id="@+id/btn1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"   
+            android:background="@drawable/xo"
+            android:clickable="true"
+            android:tag="1" />
+        
+       		
+
+        <ImageButton
+            android:id="@+id/btn2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/xo"
+            android:clickable="true"
+            android:tag="2" />
+
+        <ImageButton
+            android:id="@+id/btn3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"           
+            android:background="@drawable/xo"
+            android:clickable="true"
+            android:tag="3" />
+    </TableRow>
+
+    <TableRow
+        android:layout_gravity="center|center_horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal" >
+
+        <ImageButton
+            android:id="@+id/btn4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/xo"
+            android:clickable="true"
+            android:tag="4" />
+
+        <ImageButton
+            android:id="@+id/btn5"
+            android:layout_width="100px"
+            android:layout_height="100dp"
+           	android:background="@drawable/xo"
+            android:clickable="true"
+            android:tag="5" />
+
+        <ImageButton
+            android:id="@+id/btn6"
+            android:layout_width="100px"
+            android:layout_height="100dp"
+            android:background="@drawable/xo"
+            android:clickable="true"
+            android:tag="6" />
+    </TableRow>
+
+    <TableRow
+        android:layout_gravity="center|center_horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal" >
+
+        <ImageButton
+            android:id="@+id/btn7"
+            android:layout_width="100px"
+            android:layout_height="100dp"
+            android:background="@drawable/xo"
+            android:clickable="true"
+            android:tag="7" />
+
+        <ImageButton
+            android:id="@+id/btn8"
+            android:layout_width="100px"
+            android:layout_height="100dp"
+            android:background="@drawable/xo"
+            android:clickable="true"
+            android:tag="8" />
+
+        <ImageButton
+            android:id="@+id/btn9"
+            android:layout_width="100px"
+            android:layout_height="100dp"
+            android:background="@drawable/xo"
+            android:clickable="true"
+            android:tag="9" />
+    </TableRow>
+
+    <TextView
+        android:id="@+id/indicador_turnos"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:gravity="center|center_horizontal"
+        android:text="Turno del jugador 1"
+        android:textSize="25sp"
+        style="@style/estiloT"/>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        >        
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="salir"
+            android:text="Salir"
+            android:background="#009900"
+            style="@style/estiloB" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="reanudar"
+            android:text="Reanudar"
+            android:background="#66ff00"
+            style="@style/estiloB" />
+    </TableRow>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+</TableLayout>
